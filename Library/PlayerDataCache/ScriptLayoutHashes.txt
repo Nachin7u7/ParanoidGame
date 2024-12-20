@@ -1,11 +1,8 @@
 WindowsStandalone
 PlayerPath?
-D:/BuildsUnity/FPSTest1(BetaGame)/UwU.exe
+C:/Users/ignac/OneDrive/Escritorio/Nacheats/GamesInDev/UnityProjects/UwUFPSGame/UwUFPSGame/Demo/Paranoid.exe
 SceneListBegin?
-Assets/Scenes/Scene1.unity
 Assets/Scenes/lvl1.unity
-Assets/Scenes/lvl2.unity
-Assets/Scenes/lvl3.unity
 SceneListEnd?
 e1c833cfa985c00fc1c6ca849c627268 Assembly-CSharp.dll:.nextLevel
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -21,7 +18,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 7bf9cad8520fc57d65c7248d25369257 Assembly-CSharp.dll:.abrirPuerta
-7017cb01e50d8af4cd8d72be2b617975 Assembly-CSharp.dll:.otroDeMoverObjetos
+1b2549ef8aec7bf89faa9f98fa3f7b30 Assembly-CSharp.dll:.otroDeMoverObjetos
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -99,6 +96,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+6c07ee19dbda567ca76c7a32b706a82d Assembly-CSharp.dll:.FPS_Controller
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -124,7 +122,6 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 5cc25048a7dac45187ef42bfbcb3c2b8 Assembly-CSharp.dll:.apagarRadio
 462f45a19d5a9d044584b56feec2fcdb Assembly-CSharp.dll:.dialogos
 595975833a841571f827d0a72717cd7f Assembly-CSharp.dll:.abrirPuertaMisteriosamente
-62cd591699130d06982bb17f4daa6b99 Assembly-CSharp.dll:.escalera
 170b734458ef5060b15cce2ed45de862 Assembly-CSharp.dll:.tiempoDeTexto
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -141,6 +138,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 96aa5cbdc375c970ec13d7d6ecf5c3ad Assembly-CSharp.dll:.presentacion
+b1843122cb77d90309c63860e507f4a3 Assembly-CSharp.dll:.FogControl
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 de4d9d052ba4d30c8e1d66d73b186762 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -160,5 +158,5 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 7db0c0bc772c2eb09cb7e59fb02f7977 Assembly-CSharp.dll:.tutoCamara
 0d080723a81efc367f5b0fe5fd548dad Assembly-CSharp.dll:.mostrarTexto
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-81a11bf3da6a4f19e5be1800e573ab30 Assembly-CSharp.dll:.FPSController
 587658064eef6ca0be82dcb88363f25f Assembly-CSharp.dll:.TutoInicial
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.QuitGame4Demo
