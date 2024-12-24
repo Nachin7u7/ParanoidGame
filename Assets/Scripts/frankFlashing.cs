@@ -10,21 +10,23 @@ public class frankFlashing : MonoBehaviour
 	// Tiempo máximo entre apariciones
 	public float visibleDuration = 0.5f;
 	// Duración de la visibilidad
+	public GameObject frank;
+	// El fantasma
 
-	private MeshRenderer meshRenderer;
+	private MeshRenderer fankMesh, lightMesh;
 
 	void Start ()
 	{
-		// Obtener el componente MeshRenderer del objeto
-		meshRenderer = GetComponent<MeshRenderer> ();
-
-		if (meshRenderer == null) {
-			Debug.LogError ("El objeto no tiene un MeshRenderer. Asegúrate de que sea un objeto con un material asignado.");
+		// Obtener el componente MeshRenderer del objeto fantasma
+		fankMesh = frank.GetComponent<MeshRenderer> ();
+		lightMesh = GetComponent<MeshRenderer> ();
+		if (fankMesh == null) {
+			Debug.LogError ("El objeto 'frank' no tiene un MeshRenderer. Asegúrate de que sea un objeto con un material asignado.");
 			return;
 		}
 
-		// Asegurarse de que el plano sea invisible al inicio
-		meshRenderer.enabled = false;
+		// Asegurarse de que el fantasma sea invisible al inicio
+		fankMesh.enabled = false;
 
 		// Iniciar la rutina de aparición/desaparición
 		StartCoroutine (HandleVisibility ());
@@ -33,18 +35,29 @@ public class frankFlashing : MonoBehaviour
 	IEnumerator HandleVisibility ()
 	{
 		while (true) {
-			// Esperar un tiempo aleatorio antes de aparecer
+			// Esperar un tiempo aleatorio antes de encender la luz
 			float waitTime = Random.Range (minTime, maxTime);
 			yield return new WaitForSeconds (waitTime);
 
-			// Hacer visible el plano
-			meshRenderer.enabled = true;
+			// Encender la luz
+			lightMesh.enabled = true;
 
-			// Mantenerlo visible por un tiempo definido
+			// Determinar aleatoriamente si el fantasma aparecerá
+			bool shouldFrankAppear = Random.value > 0.2f; // 50% de probabilidad
+
+			if (shouldFrankAppear) {
+				// Hacer visible al fantasma
+				fankMesh.enabled = true;
+			}
+
+			// Mantener la luz encendida por un tiempo definido
 			yield return new WaitForSeconds (visibleDuration);
 
-			// Hacer invisible el plano
-			meshRenderer.enabled = false;
+			// Apagar la luz
+			lightMesh.enabled = !true;
+
+			// Hacer invisible al fantasma
+			fankMesh.enabled = false;
 		}
 	}
 }

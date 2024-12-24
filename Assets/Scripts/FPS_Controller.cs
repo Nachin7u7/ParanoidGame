@@ -26,14 +26,19 @@ public class FPS_Controller : MonoBehaviour
 
 	[Header ("Audio de Pasos")]
 	public AudioSource footstepAudioSource;
+
+	public AudioSource landingAudioSource;
 	// AudioSource para sonido de pasos
 	public AudioClip footstepClip;
+	public AudioClip landingClip;
 	// Clip de audio para pasos
 	public float runPitch = 1.5f;
 	// Pitch al correr (más rápido)
 	public float walkPitch = 1.0f;
 	// Pitch al caminar (velocidad normal)
 	public bool isWalking = false;
+
+	public bool jumped = false;
 
 	void Start ()
 	{
@@ -46,6 +51,9 @@ public class FPS_Controller : MonoBehaviour
 		if (footstepAudioSource != null && footstepClip != null) {
 			footstepAudioSource.clip = footstepClip;
 			footstepAudioSource.loop = true; // Configurar el audio en loop
+		}
+		if (landingAudioSource != null && landingClip != null) {
+			landingAudioSource.clip = landingClip;
 		}
 	}
 
@@ -64,6 +72,10 @@ public class FPS_Controller : MonoBehaviour
 		if (aux) {
 			move = new Vector3 (Input.GetAxis ("Horizontal"), 0f, Input.GetAxis ("Vertical"));
 			if (move.magnitude > 0.1f) { // Si hay movimiento
+				if (jumped && ct.isGrounded) {
+					landingAudioSource.Play ();
+					jumped = false;
+				}
 				if (Input.GetKey (KeyCode.LeftShift)) { // Si el jugador está corriendo
 					move = transform.TransformDirection (move) * runSpeed;
 					footstepAudioSource.pitch = runPitch; // Aumentar la velocidad del sonido
@@ -86,6 +98,7 @@ public class FPS_Controller : MonoBehaviour
 			if (Input.GetKey (KeyCode.Space)) { // Salto
 				move.y = jumpSpeed;
 				footstepAudioSource.Stop ();
+				jumped = true;
 			}
 		} else {
 			move.y -= gravity * Time.deltaTime;

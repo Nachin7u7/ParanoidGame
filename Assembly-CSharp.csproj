@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{068DA1C3-E6F6-C60A-BBDC-B30FC4EE7537}</ProjectGuid>
+    <ProjectGuid>{2DA52253-BFBC-E8D1-7445-255C3A47CFA4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,23 +54,31 @@
      <Compile Include="Assets\Scripts\abrirPuerta.cs" />
      <Compile Include="Assets\Scripts\abrirPuertaMisteriosamente.cs" />
      <Compile Include="Assets\Scripts\apagarRadio.cs" />
+     <Compile Include="Assets\Scripts\backButton.cs" />
      <Compile Include="Assets\Scripts\BulbBalance.cs" />
+     <Compile Include="Assets\Scripts\ByeFrank.cs" />
      <Compile Include="Assets\Scripts\dialogos.cs" />
      <Compile Include="Assets\Scripts\escalera.cs" />
      <Compile Include="Assets\Scripts\FlashingLight.cs" />
      <Compile Include="Assets\Scripts\FogControl.cs" />
      <Compile Include="Assets\Scripts\FPS_Controller.cs" />
      <Compile Include="Assets\Scripts\frankFlashing.cs" />
+     <Compile Include="Assets\Scripts\GameTitle.cs" />
+     <Compile Include="Assets\Scripts\lookAtGamer.cs" />
+     <Compile Include="Assets\Scripts\MasterVolumeSlider.cs" />
      <Compile Include="Assets\Scripts\mostrarTexto.cs" />
      <Compile Include="Assets\Scripts\moverObjetos.cs" />
      <Compile Include="Assets\Scripts\nextLevel.cs" />
      <Compile Include="Assets\Scripts\otroDeMoverObjetos.cs" />
      <Compile Include="Assets\Scripts\presentacion.cs" />
      <Compile Include="Assets\Scripts\QuitGame4Demo.cs" />
+     <Compile Include="Assets\Scripts\resolutionSettings.cs" />
+     <Compile Include="Assets\Scripts\StartGame.cs" />
      <Compile Include="Assets\Scripts\tiempoDeTexto.cs" />
      <Compile Include="Assets\Scripts\tutoCamara.cs" />
      <Compile Include="Assets\Scripts\TutoInicial.cs" />
-     <Compile Include="Assets\UIFadeIn.cs" />
+     <Compile Include="Assets\Scripts\UIFadeIn.cs" />
+     <Compile Include="Assets\Scripts\windowedSettings.cs" />
      <Compile Include="Assets\VHS\Scripts\VHSPostProcessEffect.cs" />
      <None Include="Assets\VHS\Shaders\VHSPostProcessEffect.shader" />
  <Reference Include="UnityEngine.CoreModule">

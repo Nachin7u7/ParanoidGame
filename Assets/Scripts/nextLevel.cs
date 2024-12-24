@@ -2,24 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class nextLevel : MonoBehaviour {
+public class nextLevel : MonoBehaviour
+{
+	public string level;
 
-	public GameObject player;
-	public string nivel;
-
-	// Use this for initialization
-	void Start () {
+	private void OnTriggerEnter (Collider collider)
+	{
+		if (collider.tag.Equals ("Player"))
+			Application.LoadLevel (level);
 		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-	private void OnTriggerEnter (Collider colider)	{
-		if (player.tag.Equals ("Player")) {
-			Application.LoadLevel (nivel);
-		}	
 	}
 }
