@@ -1,7 +1,10 @@
+<div align="center">
+  <img src="https://github.com/Nachin7u7/ParanoidGame/blob/main/Assets/Materials/Title.png" alt="ParanoidGame Banner" width="500">
+</div>
 
-# ParanoidGame
+---
 
-Welcome to **ParanoidGame**! This is a first-person survival game filled with mystery, horror, and unique mechanics designed to keep the player constantly on edge. The project is developed in Unity 3D.
+Welcome to **Paranoid**! This is a first-person survival game filled with mystery, horror, and unique mechanics designed to keep the player constantly on edge. The project is developed in Unity 3D.
 
 ---
 
@@ -62,16 +65,9 @@ The game includes an options menu where you can customize the following settings
 
 ---
 
-<!--## 📦 **How to Play**
+## 📥 **Download Demo**
 
- 1. Clone this repository:
-   ```bash
-   git clone https://github.com/Nachin7u7/ParanoidGame.git
-   ```
-2. Open the project in Unity (recommended version: Unity 2021.3 or higher).
-3. Run the main menu scene (`menu.unity`) to start the game.
-4. Customize your settings in the options menu.
-5. Dive into the world of ParanoidGame! -->
+[Click here to download the demo](https://drive.usercontent.google.com/download?id=1qedDurWR1fmkkd_Mw9O4Yw2W1CsoQg0o&export=download)
 
 ---
 
