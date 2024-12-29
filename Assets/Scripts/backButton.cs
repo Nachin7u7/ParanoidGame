@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class backButton : MonoBehaviour
 {
@@ -10,6 +11,11 @@ public class backButton : MonoBehaviour
 	{
 		newTab.SetActive (true);
 		actualTab.SetActive (false);
+	}
+
+	public void SetCursorNotVisible ()
+	{
+		Cursor.visible = false;
 	}
 	////////animation but does not work propietly so TODO later
 

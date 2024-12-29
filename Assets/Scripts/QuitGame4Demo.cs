@@ -1,13 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class QuitGame4Demo : MonoBehaviour
 {
-
-	private void OnTriggerEnter (Collider other)
+	public void OnClick ()
 	{
-		if (other.tag.Equals ("Player"))
-			Application.Quit();
+		Application.Quit ();
 	}
 }

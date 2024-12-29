@@ -3,7 +3,13 @@ guid: f9358d73b3593c9439e00971458133b3
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - cam: {instanceID: 0}
+  - settings: {fileID: 11400000, guid: 663edec528f40af4bbe8e687926232f1, type: 2}
+  - footstepAudioSource: {instanceID: 0}
+  - landingAudioSource: {instanceID: 0}
+  - footstepClip: {instanceID: 0}
+  - landingClip: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

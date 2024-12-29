@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\BulbBalance.cs" />
      <Compile Include="Assets\Scripts\ByeFrank.cs" />
      <Compile Include="Assets\Scripts\dialogos.cs" />
+     <Compile Include="Assets\Scripts\DoorController.cs" />
      <Compile Include="Assets\Scripts\escalera.cs" />
      <Compile Include="Assets\Scripts\FlashingLight.cs" />
      <Compile Include="Assets\Scripts\FogControl.cs" />
@@ -73,6 +74,9 @@
      <Compile Include="Assets\Scripts\presentacion.cs" />
      <Compile Include="Assets\Scripts\QuitGame4Demo.cs" />
      <Compile Include="Assets\Scripts\resolutionSettings.cs" />
+     <Compile Include="Assets\Scripts\SetSensitivity.cs" />
+     <Compile Include="Assets\Scripts\Settings.cs" />
+     <Compile Include="Assets\Scripts\ShakeText.cs" />
      <Compile Include="Assets\Scripts\StartGame.cs" />
      <Compile Include="Assets\Scripts\tiempoDeTexto.cs" />
      <Compile Include="Assets\Scripts\tutoCamara.cs" />
